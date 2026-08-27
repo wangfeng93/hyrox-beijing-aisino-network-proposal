@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="航天信息为 HYROX 北京赛事提出的锐捷网络产品与赛事网络保障合作企划。" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <title>HYROX 北京赛事 × 航天信息｜赛事网络合作企划</title>
+  <style>
+    :root{
+      --black:#070808;--black2:#0e1011;--panel:#151819;--panel2:#1c2022;--paper:#f4f2e9;
+      --white:#fff;--muted:#a9b0b3;--yellow:#f6d719;--yellow2:#ffe85f;--blue:#0756ad;
+      --blue2:#2e9de8;--red:#e41e2b;--green:#24d18d;--orange:#ff9d28;--line:rgba(255,255,255,.12);
+      --radius:24px;--shadow:0 28px 80px rgba(0,0,0,.32);--ease:cubic-bezier(.23,1,.32,1);
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:#fff;font-family:"Noto Sans SC","Microsoft YaHei","PingFang SC",Arial,sans-serif;line-height:1.75;overflow-x:hidden}a{color:inherit}img{max-width:100%;display:block}button{font:inherit}::selection{background:var(--yellow);color:#080808}.container{width:min(1240px,calc(100% - 40px));margin:auto}.section{padding:112px 0;position:relative}.paper{background:var(--paper);color:#161819}.dark2{background:var(--black2)}.eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:18px;color:var(--yellow);font-size:12px;font-weight:900;letter-spacing:.17em;text-transform:uppercase}.eyebrow:before{content:"";width:38px;height:3px;background:currentColor}.paper .eyebrow{color:var(--blue)}.heading{margin:0;max-width:950px;font-size:clamp(38px,5vw,72px);line-height:1.05;letter-spacing:-.045em;font-weight:950}.lead{max-width:850px;margin:26px 0 0;color:#aeb4b6;font-size:18px}.paper .lead{color:#5a6265}.yellow{color:var(--yellow)}.blue{color:#1682da}.red{color:var(--red)}.smallcaps{font-size:11px;letter-spacing:.15em;text-transform:uppercase;font-weight:900}.reveal{opacity:0;transform:translateY(24px);transition:opacity .65s var(--ease),transform .65s var(--ease)}.reveal.visible{opacity:1;transform:none}
+
+    /* NAV */
+    .topbar{position:fixed;inset:0 0 auto;z-index:1000;height:76px;display:flex;align-items:center;background:rgba(7,8,8,.76);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);transition:background .18s var(--ease),box-shadow .18s var(--ease)}.topbar.scrolled{background:rgba(7,8,8,.96);box-shadow:0 12px 45px rgba(0,0,0,.28)}.nav{display:flex;align-items:center;justify-content:space-between;gap:22px}.nav-logo{height:50px;width:365px;object-fit:contain;background:#fff;border-radius:7px;padding:2px 12px}.nav-links{display:flex;list-style:none;margin:0;padding:0;gap:22px}.nav-links a{text-decoration:none;color:#c5cacc;font-size:12px;font-weight:800;transition:color .15s}.nav-links a:hover,.nav-links a:focus-visible{color:var(--yellow)}.pill-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;border:0;cursor:pointer;border-radius:999px;padding:12px 18px;font-weight:900;font-size:12px;transition:transform .16s var(--ease),background .16s var(--ease),border-color .16s}.pill-btn:active,.scenario-btn:active{transform:scale(.97)}
+
+    /* HERO */
+    .hero{min-height:100vh;padding:126px 0 74px;display:flex;align-items:flex-end;position:relative;overflow:hidden;background:#070808}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.96) 0%,rgba(0,0,0,.76) 42%,rgba(0,0,0,.22) 74%,rgba(0,0,0,.52) 100%),linear-gradient(0deg,#070808 0%,transparent 42%),url("assets/beijing-oval.jpg") center/cover no-repeat;transform:scale(1.03)}.hero-grid-overlay{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,#000,transparent 92%)}.hero .container{position:relative;z-index:2}.hero-content{max-width:820px}.hero-badge{display:inline-flex;align-items:center;gap:12px;border:1px solid rgba(246,215,25,.48);background:rgba(246,215,25,.08);color:var(--yellow);padding:8px 13px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:.1em}.live-dot{width:8px;height:8px;background:var(--green);border-radius:50%;box-shadow:0 0 0 6px rgba(36,209,141,.14);animation:pulse 1.8s infinite}.hero h1{margin:25px 0 24px;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(66px,10vw,148px);line-height:.79;letter-spacing:.01em;font-weight:900;text-transform:uppercase}.hero h1 .outline{display:block;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.84)}.hero h1 .cn{display:block;margin-top:30px;font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:.23em;line-height:1.25;letter-spacing:-.035em}.hero-copy{max-width:730px;color:#d1d4d5;font-size:18px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.pill-btn{min-height:50px;padding:0 22px;border:1px solid rgba(255,255,255,.22);background:rgba(0,0,0,.4);color:#fff}.pill-btn.primary{background:var(--yellow);border-color:var(--yellow);color:#080808}.pill-btn:hover{border-color:var(--yellow);transform:translateY(-2px)}.event-strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:62px;border:1px solid rgba(255,255,255,.15);background:rgba(5,5,5,.55);backdrop-filter:blur(12px)}.event-cell{padding:18px 20px;border-right:1px solid rgba(255,255,255,.12)}.event-cell:last-child{border-right:0}.event-cell span{display:block;color:#7e878a;font-size:10px;letter-spacing:.14em;text-transform:uppercase}.event-cell strong{display:block;margin-top:4px;font-size:14px}.hero-credit{position:absolute;right:22px;bottom:18px;color:rgba(255,255,255,.52);font-size:10px;z-index:2}.hero-credit a{text-underline-offset:3px}
+
+    /* MISSION */
+    .mission-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:start}.mission-quote{margin:0;padding-left:28px;border-left:6px solid var(--yellow);font-size:clamp(28px,3.4vw,46px);font-weight:950;line-height:1.42;letter-spacing:-.035em}.mission-quote em{font-style:normal;color:var(--blue)}.mission-side{color:#596164}.mission-side strong{color:#17191a}.promise-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:62px}.promise{padding:28px;background:#fff;border:1px solid #dedbd0;border-radius:20px}.promise .num{font-family:Impact,"Arial Narrow",sans-serif;font-size:54px;line-height:1;color:var(--blue)}.promise h3{margin:20px 0 9px;font-size:20px}.promise p{margin:0;color:#687073;font-size:14px}
+
+    /* PAIN */
+    .pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:50px}.pain-card{min-height:365px;padding:33px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);position:relative;overflow:hidden;cursor:pointer;transition:transform .2s var(--ease),border-color .2s,box-shadow .2s}.pain-card:hover{transform:translateY(-5px);border-color:rgba(246,215,25,.55);box-shadow:0 22px 55px rgba(0,0,0,.24)}.pain-card .pain-id{position:absolute;right:25px;top:12px;font-family:Impact,sans-serif;font-size:100px;line-height:1;color:rgba(255,255,255,.045)}.pain-card .area{color:var(--yellow);font-size:12px;font-weight:900;letter-spacing:.13em}.pain-card h3{margin:44px 0 12px;font-size:28px;line-height:1.28}.pain-card>p{margin:0;color:#999fa1}.fix-list{margin-top:28px;padding-top:22px;border-top:1px solid var(--line);display:grid;gap:9px}.fix{display:grid;grid-template-columns:10px 1fr;gap:10px;color:#d4d7d8;font-size:13px}.fix:before{content:"";width:8px;height:8px;margin-top:7px;border-radius:50%;background:var(--blue2);box-shadow:0 0 0 4px rgba(46,157,232,.11)}.pain-note{margin-top:22px;color:#777f82;font-size:12px}.pain-note strong{color:#fff}
+
+    /* DYNAMIC TOPOLOGY */
+    .topology-wrap{margin-top:54px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(310px,.55fr);gap:20px;align-items:stretch}.topology-stage{background:radial-gradient(circle at 50% 0%,rgba(7,86,173,.18),transparent 34%),#0b0d0e;border:1px solid rgba(255,255,255,.13);border-radius:28px;overflow:hidden;position:relative;min-height:720px}.topology-head{padding:22px 24px;display:flex;justify-content:space-between;gap:15px;align-items:center;border-bottom:1px solid var(--line)}.topology-head strong{font-size:15px}.demo-label{display:inline-flex;align-items:center;gap:8px;color:#9fa6a8;font-size:11px}.demo-label:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.7s infinite}.topology-svg{display:block;width:100%;height:auto;min-height:650px}.topology-svg text{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif}.net-node rect,.net-node .node-shape{fill:#171b1d;stroke:rgba(255,255,255,.22);stroke-width:2;transition:fill .22s,stroke .22s,filter .22s}.net-node .node-title{fill:#fff;font-size:18px;font-weight:900;text-anchor:middle}.net-node .node-sub{fill:#869095;font-size:11px;text-anchor:middle}.net-node.focus rect,.net-node.focus .node-shape{stroke:var(--yellow);filter:drop-shadow(0 0 13px rgba(246,215,25,.45));fill:#23210e}.net-node.ruijie rect{stroke:rgba(228,30,43,.7)}.route-path,.core-path,.access-path{fill:none;stroke:rgba(255,255,255,.2);stroke-width:5;stroke-linecap:round;transition:stroke .25s,opacity .25s,filter .25s}.route-path{stroke-dasharray:14 14;animation:dash 1.15s linear infinite}.route-path.active{stroke:var(--yellow);filter:drop-shadow(0 0 6px rgba(246,215,25,.6));opacity:1}.route-path.standby{stroke:#49606e;opacity:.72}.route-path.degraded{stroke:var(--orange);opacity:.78;animation-duration:2.5s}.route-path.failed{stroke:var(--red);opacity:.35;animation:none}.core-path{stroke:var(--blue2);stroke-dasharray:10 10;animation:dash 1.4s linear infinite}.access-path{stroke:#42616f;stroke-width:4}.access-path.wired{stroke:var(--blue2);stroke-width:6}.access-path.focus{stroke:var(--yellow);filter:drop-shadow(0 0 6px rgba(246,215,25,.55));animation:dash 1s linear infinite;stroke-dasharray:12 10}.topology-side{display:flex;flex-direction:column;gap:14px}.status-card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px}.status-card h3{margin:0;font-size:18px}.route-status{margin-top:18px;display:grid;gap:9px}.route-row{display:grid;grid-template-columns:10px 1fr auto;align-items:center;gap:10px;font-size:12px;color:#b6bdc0}.route-row i{width:9px;height:9px;border-radius:50%;background:#53606a}.route-row[data-route="private"] i{background:var(--yellow)}.route-row b{font-size:11px;color:#fff}.route-row.active{background:rgba(246,215,25,.08);margin:0 -9px;padding:7px 9px;border-radius:10px}.route-row.degraded i{background:var(--orange)}.route-row.failed i{background:var(--red)}.scenario-buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}.scenario-btn{border:1px solid rgba(255,255,255,.14);border-radius:12px;background:#101314;color:#ccd1d3;padding:10px 9px;cursor:pointer;font-size:11px;font-weight:800;transition:background .15s,border-color .15s,transform .15s}.scenario-btn:hover,.scenario-btn.active{background:var(--yellow);color:#080808;border-color:var(--yellow)}.scenario-output{background:linear-gradient(145deg,rgba(7,86,173,.2),rgba(46,157,232,.06));border:1px solid rgba(46,157,232,.28);border-radius:20px;padding:22px;flex:1}.scenario-output .current{display:inline-block;background:var(--blue);padding:5px 9px;border-radius:999px;font-size:10px;font-weight:900;letter-spacing:.08em}.scenario-output h3{margin:18px 0 8px;font-size:23px;line-height:1.3}.scenario-output p{margin:0;color:#abb3b6;font-size:13px}.policy-steps{display:grid;gap:9px;margin-top:20px}.policy-step{display:grid;grid-template-columns:24px 1fr;gap:9px;align-items:start;color:#d6dadb;font-size:12px}.policy-step span{width:22px;height:22px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.25);border-radius:50%;color:var(--yellow);font-weight:900}.topology-disclaimer{margin-top:14px;color:#70797d;font-size:11px}.topology-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.mini-btn{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;border:1px solid rgba(255,255,255,.2);border-radius:999px;color:#fff;text-decoration:none;background:transparent;font-size:11px;font-weight:800}.mini-btn:hover{border-color:var(--yellow);color:var(--yellow)}
+
+    /* SOLUTION PILLARS */
+    .solution-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:52px}.solution-card{min-height:310px;background:#fff;border:1px solid #dedbd0;border-radius:20px;padding:25px;position:relative}.solution-card .layer{font-family:Impact,sans-serif;color:var(--blue);font-size:42px}.solution-card h3{margin:24px 0 11px;font-size:19px;line-height:1.3}.solution-card p{margin:0;color:#687073;font-size:13px}.solution-card .tag{position:absolute;left:24px;bottom:24px;background:#eaf3fb;color:#0756ad;padding:6px 9px;border-radius:999px;font-size:10px;font-weight:900}.ruijie-stack{margin-top:24px;padding:28px;border-radius:22px;background:#151819;color:#fff;display:grid;grid-template-columns:.75fr 1.25fr;gap:36px;align-items:center}.ruijie-stack h3{margin:0;font-size:28px}.ruijie-stack p{margin:13px 0 0;color:#9fa7aa}.stack-items{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stack-item{padding:18px 14px;background:#202527;border:1px solid rgba(255,255,255,.11);border-radius:14px}.stack-item b{display:block;color:#ff5b64;font-size:12px}.stack-item span{display:block;margin-top:7px;font-size:12px;color:#c5cbcd}
+
+    /* REFERENCE */
+    .reference-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:42px;margin-top:52px;align-items:start}.reference-image{background:#fff;padding:12px;border-radius:22px;box-shadow:var(--shadow);position:relative}.reference-image img{border-radius:13px;width:100%}.reference-label{position:absolute;left:26px;top:26px;background:var(--red);color:#fff;padding:8px 12px;border-radius:999px;font-size:11px;font-weight:900}.reference-panel{display:grid;grid-template-columns:1fr 1fr;gap:13px}.ref-stat{padding:25px;background:#fff;border:1px solid #ddd8cc;border-radius:18px}.ref-stat strong{display:block;font-family:Impact,sans-serif;color:var(--blue);font-size:52px;line-height:1}.ref-stat span{display:block;margin-top:10px;font-size:12px;color:#656d70}.ref-warning{grid-column:1/-1;padding:20px 22px;background:#fff2d4;border:1px solid #e7c86d;border-radius:16px;color:#69510b;font-size:13px}.ref-warning strong{color:#151719}
+
+    /* CASES */
+    .case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px;margin-top:52px}.case{padding:32px;background:var(--panel);border:1px solid var(--line);border-radius:22px;position:relative;overflow:hidden}.case:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--red)}.case .case-type{color:#ff636c;font-size:11px;font-weight:900;letter-spacing:.13em}.case h3{margin:18px 0 11px;font-size:25px}.case p{margin:0;color:#9aa1a4}.case-tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:20px}.case-tags span{padding:6px 9px;background:#202526;border-radius:999px;color:#cbd0d2;font-size:10px;font-weight:800}.case a{display:inline-flex;margin-top:22px;color:var(--yellow);font-size:12px;font-weight:900;text-underline-offset:4px}
+
+    /* AISINO */
+    .aisino-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:54px;margin-top:52px;align-items:center}.aisino-brand{background:#fff;border-radius:26px;padding:36px;box-shadow:var(--shadow)}.aisino-brand img{width:100%}.aisino-brand p{margin:22px 0 0;color:#596164;font-size:13px}.cap-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.cap{background:#fff;border:1px solid #ddd9cd;border-radius:17px;padding:22px}.cap .cap-label{font-size:11px;color:var(--blue);font-weight:900;letter-spacing:.08em}.cap h3{margin:15px 0 7px;font-size:19px}.cap p{margin:0;color:#687073;font-size:13px}.qualification{margin-top:14px;padding:18px 20px;border-radius:15px;background:#e9f2fb;color:#25415e;font-size:12px}.qualification strong{color:#0756ad}
+
+    /* DELIVERY */
+    .timeline{display:grid;grid-template-columns:repeat(6,1fr);margin-top:54px;border:1px solid var(--line);background:var(--line);gap:1px}.step{min-height:280px;padding:25px 20px;background:#111415;position:relative}.step .step-no{font-family:Impact,sans-serif;font-size:35px;color:var(--yellow)}.step h3{margin:54px 0 10px;font-size:18px}.step p{margin:0;color:#858e91;font-size:12px}.step:after{content:"";position:absolute;left:20px;top:78px;width:52px;height:3px;background:var(--blue2)}.acceptance{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}.accept{padding:22px;border-radius:17px;background:#1a1e20;border:1px solid var(--line)}.accept b{display:block;color:#fff;font-size:15px}.accept span{display:block;margin-top:9px;color:#899194;font-size:12px}
+
+    /* CTA + FOOTER */
+    .cta{padding:100px 0;background:var(--yellow);color:#090909;position:relative;overflow:hidden}.cta:after{content:"BEIJING READY";position:absolute;right:-15px;bottom:-55px;font-family:Impact,sans-serif;font-size:160px;color:rgba(0,0,0,.07)}.cta-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .75fr;gap:60px;align-items:end}.cta h2{margin:0;font-size:clamp(46px,6vw,85px);line-height:.95;letter-spacing:-.05em}.cta p{margin:0;font-size:15px}.cta-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.cta .pill-btn{background:#090909;border-color:#090909}.cta .pill-btn.alt{background:transparent;color:#090909;border-color:#090909}footer{padding:42px 0;background:#050606;color:#737b7e;font-size:11px}.footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.footer-title{color:#fff;font-weight:900;font-size:13px;margin-bottom:8px}.sources{display:flex;gap:13px;flex-wrap:wrap;justify-content:flex-end}.sources a{text-underline-offset:4px}.sources a:hover{color:var(--yellow)}
+
+    /* MODALS */
+    .modal{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.92);padding:28px;align-items:center;justify-content:center}.modal.open{display:flex}.modal img{max-width:96vw;max-height:90vh;border-radius:14px;box-shadow:var(--shadow)}.modal-close{position:fixed;right:20px;top:18px;width:46px;height:46px;border-radius:50%;background:#141718;border:1px solid rgba(255,255,255,.24);color:#fff;cursor:pointer;font-size:22px}.modal-close:hover{background:var(--red)}
+
+    @keyframes dash{to{stroke-dashoffset:-56}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.route-path,.core-path,.access-path,.live-dot,.demo-label:before{animation:none!important}}
+    @media(max-width:1080px){.nav-links{display:none}.mission-grid,.topology-wrap,.reference-grid,.aisino-grid,.cta-grid{grid-template-columns:1fr}.solution-grid{grid-template-columns:repeat(3,1fr)}.topology-stage{min-height:auto}.timeline{grid-template-columns:repeat(3,1fr)}.event-strip{grid-template-columns:repeat(2,1fr)}.promise-row{grid-template-columns:1fr}.ruijie-stack{grid-template-columns:1fr}}
+    @media(max-width:760px){.container{width:min(100% - 28px,1240px)}.section{padding:78px 0}.topbar{height:64px}.nav-logo{height:42px;width:235px;padding:1px 8px}.hero{padding:104px 0 54px;min-height:auto}.hero-bg{background:linear-gradient(0deg,#070808 5%,rgba(0,0,0,.65) 58%,rgba(0,0,0,.36) 100%),url("assets/beijing-oval.jpg") 58% center/cover no-repeat}.hero h1{font-size:clamp(64px,21vw,104px)}.hero h1 .cn{font-size:.28em}.hero-copy{font-size:16px}.event-strip{grid-template-columns:1fr}.event-cell{border-right:0;border-bottom:1px solid var(--line)}.pain-grid,.case-grid,.cap-grid,.reference-panel,.acceptance{grid-template-columns:1fr}.solution-grid{grid-template-columns:1fr}.stack-items{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}.scenario-buttons{grid-template-columns:1fr}.topology-stage{overflow-x:auto}.topology-svg{width:860px;max-width:none}.footer-grid{grid-template-columns:1fr}.sources{justify-content:flex-start}.cta:after{font-size:95px}.modal{padding:10px}}
+    @media(max-width:470px){.timeline,.stack-items{grid-template-columns:1fr}.hero-actions,.cta-actions{flex-direction:column}.pill-btn{width:100%}.nav-logo{width:205px}.promise{padding:22px}}
+    @media print{.topbar,.hero-actions,.scenario-buttons,.topology-actions,.cta-actions,.modal{display:none!important}.section{padding:50px 0}.hero{min-height:auto;padding:40px 0;background:#111;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hero-bg{opacity:.45}.reveal{opacity:1!important;transform:none!important}.topology-wrap{grid-template-columns:1fr}.topology-stage{break-inside:avoid}.paper,.cta{print-color-adjust:exact;-webkit-print-color-adjust:exact}a{text-decoration:none}.hero-credit{display:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="container nav">
+      <a href="#top" aria-label="返回首页"><img class="nav-logo" src="assets/hyrox-aisino-partnership-wide.svg" alt="HYROX 与航天信息合作标识" /></a>
+      <ul class="nav-links" aria-label="章节导航">
+        <li><a href="#risks">风险理解</a></li><li><a href="#topology">动态拓扑</a></li><li><a href="#solution">锐捷方案</a></li><li><a href="#proof">案例能力</a></li><li><a href="#delivery">实施保障</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg"></div><div class="hero-grid-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge"><span class="live-dot"></span> AISINO × RUIJIE · EVENT NETWORK PROPOSAL</div>
+          <h1>BEIJING<span class="outline">RACE READY</span><span class="cn">HYROX 北京赛事网络合作企划</span></h1>
+          <p class="hero-copy">以锐捷为主要网络产品体系，由航天信息完成需求统筹、方案集成、工程实施、测试验收和赛时保障。目标不是“有网络”，而是让注册、直播、交易与赛事运营在高压场景下持续可用。</p>
+          <div class="hero-actions"><a class="pill-btn primary" href="#topology">体验动态拓扑</a><a class="pill-btn" href="#risks">查看痛点优化</a></div>
+        </div>
+        <div class="event-strip">
+          <div class="event-cell"><span>Event</span><strong>Ulike HYROX Beijing</strong></div>
+          <div class="event-cell"><span>Date</span><strong>2026.09.10 — 09.13</strong></div>
+          <div class="event-cell"><span>Venue</span><strong>北京冰丝带（国家速滑馆）</strong></div>
+          <div class="event-cell"><span>Format</span><strong>北京站首次四日赛制 <a href="https://hyrox.com/event/hyrox-beijing-0912/" target="_blank" rel="noopener">[1]</a></strong></div>
+        </div>
+      </div>
+      <div class="hero-credit">场馆图片来源：<a href="https://populous.com/showcases/national-speed-skating-oval" target="_blank" rel="noopener">Populous</a></div>
+    </section>
+
+    <section class="section paper">
+      <div class="container">
+        <div class="mission-grid reveal">
+          <div><div class="eyebrow">Our mission</div><blockquote class="mission-quote">在北京冰丝带，让网络成为赛事节奏的一部分，<em>而不是风险来源。</em></blockquote></div>
+          <div class="mission-side"><p>北京站首次扩展到四日赛制，意味着网络不只要承受瞬时高峰，更要应对长时间连续运行、跨团队协作和动态变化。航天信息将客户反馈转化为工程目标：<strong>关键业务优先、跨境路径可切换、无线体验可观测、故障过程可恢复。</strong></p><p>锐捷负责承载赛事场景所需的网关、交换、无线和统一管理能力；航天信息负责把产品能力转化为可落地的北京赛事交付体系。</p></div>
+        </div>
+        <div class="promise-row reveal">
+          <article class="promise"><div class="num">01</div><h3>可用</h3><p>关键终端优先有线化，多路径出口与无线冗余降低单点失效风险。</p></article>
+          <article class="promise"><div class="num">02</div><h3>可管</h3><p>按注册、直播、商业和办公进行 VLAN/QoS 分级，统一看见链路与终端体验。</p></article>
+          <article class="promise"><div class="num">03</div><h3>可恢复</h3><p>把检测、判定、切换、回切和升级流程写入赛时手册，并通过彩排验证。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark2" id="risks">
+      <div class="container">
+        <div class="eyebrow">Pain points → Engineering actions</div>
+        <h2 class="heading">客户反馈的不是“网慢”，<br>而是四类<span class="yellow">业务连续性风险</span></h2>
+        <p class="lead">点击任一卡片，可跳转至动态拓扑并查看对应场景。我们不回避问题，而是把每个问题转化为可设计、可测试、可验收的改造动作。</p>
+        <div class="pain-grid reveal">
+          <article class="pain-card" data-scenario="checkin" tabindex="0"><div class="pain-id">01</div><div class="area">ATHLETE CHECK-IN</div><h3>注册效率风险</h3><p>网络响应慢会延长单人办理时间，并在高峰期快速放大为排队、拥堵和选手体验下降。</p><div class="fix-list"><div class="fix">注册 PC 采用抗干扰有线主接入</div><div class="fix">无线备份 + 独立业务 VLAN</div><div class="fix">关键应用探测与优先级保障</div></div><div class="pain-note"><strong>验收方向：</strong>实际注册业务连续测试与高峰并发演练</div></article>
+          <article class="pain-card" data-scenario="privateJitter" tabindex="0"><div class="pain-id">02</div><div class="area">LIVE & MEDIA</div><h3>直播连续性风险</h3><p>跨境路径抖动、上行拥塞或单路径故障，都会造成画面卡顿、断续和内容回传失败。</p><div class="fix-list"><div class="fix">跨境专线 + 两组旁路软件路由</div><div class="fix">持续探测时延、丢包与抖动</div><div class="fix">防抖判定、会话保持与平滑回切</div></div><div class="pain-note"><strong>验收方向：</strong>真实码率推流、链路故障与持续回传测试</div></article>
+          <article class="pain-card" data-scenario="commerce" tabindex="0"><div class="pain-id">03</div><div class="area">MERCH & PARTNERS</div><h3>交易与品牌风险</h3><p>展台和 Merch 网络掉线会直接阻断支付与交易，并把技术问题放大为销售损失和伙伴体验问题。</p><div class="fix-list"><div class="fix">锐捷高密无线与统一控制</div><div class="fix">商业 VLAN + 支付业务 QoS</div><div class="fix">抗干扰回传与终端体验告警</div></div><div class="pain-note"><strong>验收方向：</strong>移动支付、漫游、认证及高并发终端测试</div></article>
+          <article class="pain-card" data-scenario="normal" tabindex="0"><div class="pain-id">04</div><div class="area">EVENT OPERATIONS</div><h3>协同效率风险</h3><p>工作人员办公网络卡顿会拖慢信息同步、赛事协调和现场决策，影响整场活动执行节奏。</p><div class="fix-list"><div class="fix">办公网络与其他业务逻辑隔离</div><div class="fix">角色策略、合理限速与统一监控</div><div class="fix">告警分级、现场驻场与升级路径</div></div><div class="pain-note"><strong>验收方向：</strong>长时间在线、文件协同与故障定位演练</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="topology">
+      <div class="container">
+        <div class="eyebrow">Interactive network topology</div>
+        <h2 class="heading">动态拓扑：看见每一次<span class="yellow">探测、择优与切换</span></h2>
+        <p class="lead">拓扑以用户原始结构图为基础进行工程化表达。切换不同场景，可查看跨境专线、旁路 A/B、锐捷核心与无线体系如何共同保护注册、直播、交易和办公业务。</p>
+
+        <div class="topology-wrap reveal">
+          <div class="topology-stage">
+            <div class="topology-head"><strong>HYROX 北京赛事网络 · 逻辑演示</strong><span class="demo-label">动态策略运行中</span></div>
+            <svg class="topology-svg" viewBox="0 0 1200 760" role="img" aria-labelledby="topologyTitle topologyDesc">
+              <title id="topologyTitle">HYROX 北京赛事动态网络拓扑</title>
+              <desc id="topologyDesc">跨境专线和两组旁路软件路由经过质量探测和择优策略进入出口防火墙、锐捷核心交换与无线网络，再连接注册、直播、商业和办公终端。</desc>
+              <defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+              <!-- route links -->
+              <path id="path-private" class="route-path active" d="M210 115 C260 170 390 180 510 232"/>
+              <path id="path-routeA" class="route-path standby" d="M600 115 L600 222"/>
+              <path id="path-routeB" class="route-path standby" d="M990 115 C920 170 790 182 690 232"/>
+              <path class="core-path" d="M600 292 L600 350"/>
+              <path class="core-path" d="M600 418 L600 474"/>
+              <path id="path-controller" class="access-path" d="M705 385 L855 385"/>
+              <path id="path-checkin" class="access-path wired" d="M555 530 C460 560 300 575 190 615"/>
+              <path id="path-live" class="access-path wired" d="M575 530 C550 560 505 575 450 615"/>
+              <path id="path-commerce" class="access-path" d="M625 530 C675 565 710 582 745 615"/>
+              <path id="path-office" class="access-path" d="M650 530 C760 555 900 575 1010 615"/>
+
+              <!-- top route nodes -->
+              <g class="net-node focus" id="node-private"><rect x="90" y="52" rx="18" width="240" height="95"/><text class="node-title" x="210" y="91">跨境专线</text><text class="node-sub" x="210" y="118">主用 / 可择优</text></g>
+              <g class="net-node" id="node-routeA"><rect x="480" y="52" rx="18" width="240" height="95"/><text class="node-title" x="600" y="91">旁路软件路由 A</text><text class="node-sub" x="600" y="118">热备路径 01</text></g>
+              <g class="net-node" id="node-routeB"><rect x="870" y="52" rx="18" width="240" height="95"/><text class="node-title" x="990" y="91">旁路软件路由 B</text><text class="node-sub" x="990" y="118">热备路径 02</text></g>
+
+              <!-- policy / firewall / core -->
+              <g class="net-node" id="node-policy"><rect x="460" y="222" rx="18" width="280" height="70"/><text class="node-title" x="600" y="252">链路质量探测与择优策略</text><text class="node-sub" x="600" y="274">探测 · 防抖 · 会话保持 · 回切</text></g>
+              <g class="net-node ruijie"><rect x="485" y="350" rx="16" width="230" height="68"/><text class="node-title" x="600" y="380">锐捷出口防火墙</text><text class="node-sub" x="600" y="401">安全策略 / NAT / QoS</text></g>
+              <g class="net-node ruijie"><rect x="465" y="474" rx="16" width="270" height="70"/><text class="node-title" x="600" y="505">锐捷核心交换机</text><text class="node-sub" x="600" y="527">业务分区 / 策略协同 / 高速转发</text></g>
+              <g class="net-node ruijie"><rect x="855" y="350" rx="16" width="245" height="70"/><text class="node-title" x="978" y="381">锐捷无线控制器</text><text class="node-sub" x="978" y="403">射频优化 / 终端体验 / 告警</text></g>
+
+              <!-- business nodes -->
+              <g class="net-node business-node" id="node-checkin"><rect x="70" y="615" rx="17" width="240" height="92"/><text class="node-title" x="190" y="651">运动员注册区</text><text class="node-sub" x="190" y="678">抗干扰有线主用 + 无线备份</text></g>
+              <g class="net-node business-node" id="node-live"><rect x="330" y="615" rx="17" width="240" height="92"/><text class="node-title" x="450" y="651">赛事直播 / 媒体</text><text class="node-sub" x="450" y="678">多路径出口 + 上行优先</text></g>
+              <g class="net-node business-node" id="node-commerce"><rect x="625" y="615" rx="17" width="240" height="92"/><text class="node-title" x="745" y="651">Merch / 赞助商</text><text class="node-sub" x="745" y="678">高密无线 + 支付 QoS</text></g>
+              <g class="net-node business-node" id="node-office"><rect x="890" y="615" rx="17" width="240" height="92"/><text class="node-title" x="1010" y="651">赛事工作人员</text><text class="node-sub" x="1010" y="678">独立 VLAN + 统一监控</text></g>
+              <text x="46" y="576" fill="#2e9de8" font-size="12" font-weight="900">抗干扰有线链路</text>
+              <text x="845" y="455" fill="#e95760" font-size="11" font-weight="900">RUIJIE PRODUCT STACK</text>
+            </svg>
+          </div>
+
+          <aside class="topology-side">
+            <section class="status-card"><div class="smallcaps" style="color:var(--yellow)">Route state</div><h3 style="margin-top:8px">路径状态</h3><div class="route-status"><div class="route-row active" id="row-private" data-route="private"><i></i><span>跨境专线</span><b>当前优选</b></div><div class="route-row" id="row-routeA"><i></i><span>旁路软件路由 A</span><b>热备</b></div><div class="route-row" id="row-routeB"><i></i><span>旁路软件路由 B</span><b>热备</b></div></div><div class="scenario-buttons"><button class="scenario-btn active" data-scenario="normal">正常运行</button><button class="scenario-btn" data-scenario="privateJitter">专线抖动</button><button class="scenario-btn" data-scenario="routeAFault">旁路 A 故障</button><button class="scenario-btn" data-scenario="checkin">注册高峰</button><button class="scenario-btn" data-scenario="commerce">交易高峰</button></div></section>
+            <section class="scenario-output" aria-live="polite"><span class="current" id="scenarioBadge">NORMAL</span><h3 id="scenarioTitle">跨境专线优选，双旁路热备</h3><p id="scenarioText">持续探测三条路径的质量；主用路径满足策略阈值时保持稳定，避免不必要切换。</p><div class="policy-steps"><div class="policy-step"><span>1</span><div>持续探测：时延、丢包、抖动与可达性</div></div><div class="policy-step"><span>2</span><div>防抖判定：连续超阈值后才触发切换</div></div><div class="policy-step"><span>3</span><div>会话保护：降低直播与业务中断风险</div></div><div class="policy-step"><span>4</span><div>稳定回切：恢复后按策略平滑回归</div></div></div><div class="topology-disclaimer">动画用于说明方案逻辑，不代表北京现场实时监控或实测参数。正式阈值以现场测试和客户确认结果为准。</div><div class="topology-actions"><button class="mini-btn" type="button" id="openOriginal">查看原图</button></div></section>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section paper" id="solution">
+      <div class="container">
+        <div class="eyebrow">Ruijie-centered solution</div>
+        <h2 class="heading">两项重点改造，升级为五层<span class="blue">赛事保障体系</span></h2>
+        <p class="lead">抗干扰布线解决物理基础，两组旁路软件路由解决跨境路径不确定性；锐捷网关、交换与无线体系进一步承担业务隔离、流量优先、体验优化和统一管理。</p>
+        <div class="solution-grid reveal">
+          <article class="solution-card"><div class="layer">L1</div><h3>物理层：抗干扰布线</h3><p>关键链路采用屏蔽型抗干扰线缆，配套规范端接、接地和链路测试，重点保障大屏、注册、媒体及 AP 回传。</p><span class="tag">对应掉线与传输不稳</span></article>
+          <article class="solution-card"><div class="layer">L2</div><h3>路径层：三路径择优</h3><p>跨境专线与旁路 A/B 持续接受质量探测，通过防抖、会话保持和回切机制选择更优路径。</p><span class="tag">对应直播卡顿</span></article>
+          <article class="solution-card"><div class="layer">L3</div><h3>业务层：VLAN + QoS</h3><p>注册、直播、支付和办公分区承载，关键流量在拥塞和故障降级时仍获得更高优先级。</p><span class="tag">对应业务互相争抢</span></article>
+          <article class="solution-card"><div class="layer">L4</div><h3>无线层：高密覆盖</h3><p>采用锐捷无线控制与高密 AP，结合信道、功率、覆盖方向和终端体验进行现场射频优化。</p><span class="tag">对应展台与移动终端</span></article>
+          <article class="solution-card"><div class="layer">L5</div><h3>运维层：可观测与驻场</h3><p>统一监控链路、设备、AP 和终端体验；建立告警分级、备件、升级路径与赛时值守机制。</p><span class="tag">对应故障定位慢</span></article>
+        </div>
+        <div class="ruijie-stack reveal">
+          <div><div class="smallcaps" style="color:#ff636c">Primary product ecosystem</div><h3>主要产品选择：锐捷</h3><p>当前阶段以产品层级确定方案，不在现场勘察前锁定型号和数量，避免形成不准确的物料与成本承诺。</p></div>
+          <div class="stack-items"><div class="stack-item"><b>出口安全</b><span>锐捷防火墙 / 网关</span></div><div class="stack-item"><b>核心承载</b><span>锐捷核心交换机</span></div><div class="stack-item"><b>接入供电</b><span>锐捷 PoE 接入交换</span></div><div class="stack-item"><b>无线控制</b><span>锐捷无线控制器</span></div><div class="stack-item"><b>现场覆盖</b><span>锐捷高密无线 AP</span></div><div class="stack-item"><b>统一管理</b><span>锐捷网络管理与体验监控</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section paper" id="reference" style="padding-top:0">
+      <div class="container">
+        <div class="eyebrow">Reference sample · Shenzhen</div>
+        <h2 class="heading">深圳资料只做参考，<br>北京方案必须重新勘察</h2>
+        <p class="lead">深圳布局图证明了同类赛事具有注册、媒体、计时、终点、赞助商、Merch 与办公等多业务并存的复杂性；但北京冰丝带的点位、容量和设备数量必须独立确认。</p>
+        <div class="reference-grid reveal">
+          <figure class="reference-image"><span class="reference-label">深圳参考 · 非北京最终点位</span><img id="shenzhenImage" src="assets/shenzhen-reference-layout.webp" alt="HYROX 深圳赛事布局参考图" style="cursor:zoom-in" /></figure>
+          <div class="reference-panel"><div class="ref-stat"><strong>28</strong><span>深圳图纸需求单元，仅作复杂度参考</span></div><div class="ref-stat"><strong>350M</strong><span>深圳图纸标注带宽静态加总</span></div><div class="ref-stat"><strong>21</strong><span>深圳参考样本中的仅无线单元</span></div><div class="ref-stat"><strong>15</strong><span>运动站与赞助商分散无线点位</span></div><div class="ref-warning"><strong>重要边界：</strong>以上数字不是北京站设备清单，也不能直接等同于北京互联网出口规格。北京方案需要基于场馆现网、参赛规模、终端并发、直播上行和公众网络范围重新设计。</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark2" id="proof">
+      <div class="container">
+        <div class="eyebrow">Proof of capability</div>
+        <h2 class="heading">锐捷产品<span class="yellow">赛事实战验证</span></h2>
+        <div class="case-grid reveal">
+          <article class="case"><div class="case-type">HIGH-DENSITY WIRELESS</div><h3>长沙贺龙体育中心</h3><p>微蜂窝高密无线实践，重点价值在于控制同频干扰、承载万人场景并配合场馆运营。</p><div class="case-tags"><span>高密覆盖</span><span>射频优化</span><span>统一运营</span></div><a href="https://www.ruijie.com.cn/al/ggshy-ty/58487" target="_blank" rel="noopener">查看锐捷官网案例</a></article>
+          <article class="case"><div class="case-type">REDUNDANCY & QOS</div><h3>广州亚运会</h3><p>覆盖多场馆的赛事管理网络，通过冗余链路、双机设备与业务分级支撑大型赛事运行。</p><div class="case-tags"><span>双机双链路</span><span>业务 QoS</span><span>多场馆</span></div><a href="https://www.ruijie.com.cn/al/jzhdch-cgyq/12048/" target="_blank" rel="noopener">查看锐捷官网案例</a></article>
+          <article class="case"><div class="case-type">LIFECYCLE DELIVERY</div><h3>深圳大运会</h3><p>覆盖咨询、设计、产品、实施、售后与赛时保障，体现大型赛事网络全生命周期交付能力。</p><div class="case-tags"><span>整体方案</span><span>IPv4/IPv6</span><span>赛时保障</span></div><a href="https://www.ruijie.com.cn/al/jzhdch-cgyq/12047/" target="_blank" rel="noopener">查看锐捷官网案例</a></article>
+          <article class="case"><div class="case-type">MEDIA NETWORK ASSURANCE</div><h3>北京冬奥会报道保障</h3><p>围绕媒体报道网络部署、预案演练与现场保障，支持前方素材和报道数据稳定回传。</p><div class="case-tags"><span>媒体回传</span><span>预案演练</span><span>现场保障</span></div><a href="https://www.ruijie.com.cn/gy/xw-gs/88339/" target="_blank" rel="noopener">查看锐捷官网案例</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section paper">
+      <div class="container">
+        <div class="eyebrow">Why Aisino</div><h2 class="heading">锐捷提供产品能力，<br>航天信息把它变成<span class="blue">赛事结果</span></h2>
+        <div class="aisino-grid reveal">
+          <div class="aisino-brand"><img src="assets/hyrox-aisino-partnership-wide.svg" alt="HYROX 与航天信息合作标识" /><p>航天信息不仅提供网络设备集成，更承担客户需求翻译、第三方协调、工程实施、测试验收、赛时值守与赛后复盘，让技术方案对业务结果负责。</p></div>
+          <div><div class="cap-grid"><article class="cap"><div class="cap-label">INTEGRATION</div><h3>端到端方案集成</h3><p>统筹运营商、场馆、锐捷、计时、直播、赞助商和现场运营团队。</p></article><article class="cap"><div class="cap-label">SERVICE</div><h3>体系化服务网络</h3><p>热线、在线、远程与上门协同，支持项目交付及持续运维。</p></article><article class="cap"><div class="cap-label">R&D</div><h3>软件与数据能力</h3><p>具备研发团队与数据能力，可扩展监控、报表和赛事数字化应用。</p></article><article class="cap"><div class="cap-label">SECURITY</div><h3>安全与服务管理</h3><p>以信息安全、IT 服务管理和质量体系支撑规范化交付。</p></article></div><div class="qualification"><strong>航天信息可提供：</strong>具备信息安全、ITSS、CMMI、ISO 质量/环境、IEC 20000/27001 等资质与体系能力；正式投标或合同附件以最新有效证书为准。</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark2" id="delivery">
+      <div class="container">
+        <div class="eyebrow">Delivery & assurance</div><h2 class="heading">七阶段交付，把风险消化在<span class="yellow">开赛之前</span></h2>
+        <div class="timeline reveal"><article class="step"><div class="step-no">01</div><h3>联合需求确认</h3><p>确认人数、终端、媒体上行、公众网络、第三方系统和责任边界。</p></article><article class="step"><div class="step-no">02</div><h3>冰丝带现场勘察</h3><p>核对运营商、机房、光纤、供电、布线、遮挡、安装和施工窗口。</p></article><article class="step"><div class="step-no">03</div><h3>详细方案设计</h3><p>形成 HLD/LLD、锐捷产品层级、VLAN、QoS、SSID、路由与监控策略。</p></article><article class="step"><div class="step-no">04</div><h3>部署与联调</h3><p>完成抗干扰布线、设备安装、配置、业务终端和第三方系统联调。</p></article><article class="step"><div class="step-no">05</div><h3>压测与故障演练</h3><p>验证注册高峰、直播推流、支付、无线并发、路径切换和恢复流程。</p></article><article class="step"><div class="step-no">06</div><h3>四日赛时保障</h3><p>驻场监控、告警分级、备件替换、运营商协同和快速升级。</p></article><article class="step"><div class="step-no">07</div><h3>复盘与复制</h3><p>提交运行报告、问题记录、配置备份与其他城市赛事复用建议。</p></article></div>
+        <div class="acceptance reveal"><div class="accept"><b>链路</b><span>吞吐、时延、丢包、抖动、切换与回切</span></div><div class="accept"><b>无线</b><span>覆盖、并发、漫游、认证与终端体验</span></div><div class="accept"><b>业务</b><span>注册、推流、支付、办公的真实流程测试</span></div><div class="accept"><b>保障</b><span>告警、响应、备件、升级路径和运行报告</span></div></div>
+      </div>
+    </section>
+
+    <section class="cta"><div class="container cta-grid"><div><div class="eyebrow" style="color:#090909">Next step</div><h2>从“北京冰丝带”现场勘察开始，让方案进入可执行状态。</h2></div><div><p>建议召开 60–90 分钟联合需求确认会，并协调场馆、运营商、计时与直播团队共同参加。会后由航天信息形成正式网络设计、锐捷产品物料、施工计划、测试用例和赛时保障手册。</p></div></div></section>
+  </main>
+
+  <footer><div class="container footer-grid"><div><div class="footer-title">HYROX 北京赛事网络合作企划</div><div>方案策划与制作：航天信息（Aisino）</div><div>主要网络产品体系：锐捷网络（Ruijie Networks）</div><div>© 2026 航天信息。用于 HYROX 北京赛事网络合作沟通。</div></div><div class="sources"><a href="https://hyrox.com/event/hyrox-beijing-0912/" target="_blank" rel="noopener">[1] HYROX 北京官方赛事页</a><a href="https://populous.com/showcases/national-speed-skating-oval" target="_blank" rel="noopener">场馆图片来源</a><a href="https://www.ruijie.com.cn/" target="_blank" rel="noopener">锐捷官网</a></div></div></footer>
+
+  <div class="modal" id="imageModal" role="dialog" aria-modal="true" aria-label="图片全屏查看"><button class="modal-close" id="modalClose" aria-label="关闭">×</button><img id="modalImage" src="assets/original-topology.png" alt="全屏图片" /></div>
+
+  <script>
+    const topbar=document.getElementById('topbar');
+    window.addEventListener('scroll',()=>topbar.classList.toggle('scrolled',window.scrollY>24),{passive:true});
+    const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}}),{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
+
+    const scenarios={
+      normal:{badge:'NORMAL',title:'跨境专线优选，双旁路热备',text:'持续探测三条路径的质量；主用路径满足策略阈值时保持稳定，避免不必要切换。',active:'private',states:{private:'active',routeA:'standby',routeB:'standby'},focus:[]},
+      privateJitter:{badge:'LIVE PROTECTION',title:'专线持续抖动，平滑切换至旁路 A',text:'连续探测到专线质量越过阈值后，策略经过防抖判定切换路径；直播与媒体业务保持最高优先级。',active:'routeA',states:{private:'degraded',routeA:'active',routeB:'standby'},focus:['live']},
+      routeAFault:{badge:'FAILOVER',title:'旁路 A 故障，旁路 B 接管',text:'旁路 A 停止承载并触发告警，策略选择可用的旁路 B；避免单个旁路软件路由成为新的单点。',active:'routeB',states:{private:'degraded',routeA:'failed',routeB:'active'},focus:['live']},
+      checkin:{badge:'CHECK-IN PEAK',title:'注册高峰：有线主用，无线备份',text:'注册 PC 使用抗干扰有线链路，注册 VLAN 获得更高业务优先级；无线作为备份接入待命。',active:'private',states:{private:'active',routeA:'standby',routeB:'standby'},focus:['checkin']},
+      commerce:{badge:'PAYMENT PEAK',title:'交易高峰：高密无线与支付 QoS 联动',text:'Merch 与赞助商区域由锐捷无线统一优化，商业 VLAN 和支付流量获得优先级，并持续观察终端体验。',active:'private',states:{private:'active',routeA:'standby',routeB:'standby'},focus:['commerce']}
+    };
+    const routeMap={private:{path:'path-private',node:'node-private',row:'row-private',active:'当前优选',standby:'热备',degraded:'抖动',failed:'故障'},routeA:{path:'path-routeA',node:'node-routeA',row:'row-routeA',active:'当前优选',standby:'热备',degraded:'抖动',failed:'故障'},routeB:{path:'path-routeB',node:'node-routeB',row:'row-routeB',active:'当前优选',standby:'热备',degraded:'抖动',failed:'故障'}};
+    function setScenario(name){
+      const s=scenarios[name]||scenarios.normal;
+      Object.entries(routeMap).forEach(([key,map])=>{const state=s.states[key];const path=document.getElementById(map.path);const node=document.getElementById(map.node);const row=document.getElementById(map.row);path.className.baseVal=`route-path ${state}`;node.classList.toggle('focus',state==='active');row.className=`route-row ${state==='active'?'active ':''}${state==='degraded'?'degraded ':''}${state==='failed'?'failed ':''}`.trim();row.querySelector('b').textContent=map[state]});
+      ['checkin','live','commerce','office'].forEach(key=>{document.getElementById(`node-${key}`).classList.toggle('focus',s.focus.includes(key));document.getElementById(`path-${key}`).classList.toggle('focus',s.focus.includes(key))});
+      document.getElementById('scenarioBadge').textContent=s.badge;document.getElementById('scenarioTitle').textContent=s.title;document.getElementById('scenarioText').textContent=s.text;
+      document.querySelectorAll('.scenario-btn').forEach(btn=>btn.classList.toggle('active',btn.dataset.scenario===name));
+    }
+    document.querySelectorAll('.scenario-btn').forEach(btn=>btn.addEventListener('click',()=>setScenario(btn.dataset.scenario)));
+    document.querySelectorAll('.pain-card').forEach(card=>{const activate=()=>{setScenario(card.dataset.scenario);document.getElementById('topology').scrollIntoView({behavior:'smooth'})};card.addEventListener('click',activate);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate()}})});
+
+    const modal=document.getElementById('imageModal'),modalImage=document.getElementById('modalImage');
+    function openImage(src,alt){modalImage.src=src;modalImage.alt=alt;modal.classList.add('open');document.body.style.overflow='hidden'}
+    function closeImage(){modal.classList.remove('open');document.body.style.overflow=''}
+    document.getElementById('openOriginal').addEventListener('click',()=>openImage('assets/original-topology.png','用户原始网络结构图'));
+    document.getElementById('shenzhenImage').addEventListener('click',()=>openImage('assets/shenzhen-reference-layout.webp','HYROX 深圳赛事布局参考图'));
+    document.getElementById('modalClose').addEventListener('click',closeImage);modal.addEventListener('click',e=>{if(e.target===modal)closeImage()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeImage()});
+    setScenario('normal');
+  </script>
+</body>
+</html>
