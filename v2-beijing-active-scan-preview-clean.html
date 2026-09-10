@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>HYROX 北京赛事 × 航天信息｜V2 北京版 + 主动扫描</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#070808}iframe{display:block;width:100%;height:100%;border:0;background:#070808}.loading{position:fixed;inset:0;display:grid;place-items:center;background:#070808;color:#cfd4d5;font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;z-index:5}.loading span{padding:10px 16px;border:1px solid rgba(255,255,255,.18);border-radius:999px;font-size:12px}.ready .loading{display:none}
+</style>
+</head>
+<body>
+<div class="loading"><span>正在加载 HYROX 北京方案…</span></div>
+<iframe id="outer" src="v2-beijing-active-scan-preview.html" title="HYROX 北京赛事网络保障方案"></iframe>
+<script>
+const outer=document.getElementById('outer');
+function applyCleanView(){
+  try{
+    const outerDoc=outer.contentDocument||outer.contentWindow.document;
+    const inner=outerDoc&&outerDoc.getElementById('v2frame');
+    if(!inner)return false;
+    const innerDoc=inner.contentDocument||inner.contentWindow.document;
+    if(!innerDoc)return false;
+    const standard=innerDoc.getElementById('standard');
+    if(standard) standard.style.setProperty('display','none','important');
+    innerDoc.querySelectorAll('section.cta').forEach(el=>el.style.setProperty('display','none','important'));
+    document.body.classList.add('ready');
+    return true;
+  }catch(e){return false;}
+}
+outer.addEventListener('load',()=>{
+  let tries=0;
+  const timer=setInterval(()=>{
+    tries++;
+    if(applyCleanView()||tries>60) clearInterval(timer);
+  },250);
+});
+setTimeout(applyCleanView,800);
+</script>
+</body>
+</html>
