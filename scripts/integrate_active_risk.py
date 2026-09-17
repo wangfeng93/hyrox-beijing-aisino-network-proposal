@@ -45,7 +45,7 @@ index = INDEX.read_text(encoding='utf-8')
 index = replace_once(
     index,
     '上海站概念方案 V1 · 调研校核稿',
-    '上海站概念方案 V2 · 主动风险检查增强版',
+    '上海站“网络保障”策略方案 V2 · “主动风险检查”增强版',
     'version badge',
 )
 index = replace_once(
@@ -144,8 +144,8 @@ index = replace_once(
 )
 index = replace_once(
     index,
-    '<div class="footer-title">众安保险 HYROX 上海站网络保障合作企划 · 上海站概念方案 V1</div>',
-    '<div class="footer-title">众安保险 HYROX 上海站网络保障合作企划 · 上海站概念方案 V2</div>',
+    '<div class="footer-title">HYROX 上海站网络保障策略 · 上海站概念方案 V1</div>',
+    '<div class="footer-title">HYROX 上海站“网络保障”策略方案 V2 · “主动风险检查”增强版</div>',
     'footer version',
 )
 

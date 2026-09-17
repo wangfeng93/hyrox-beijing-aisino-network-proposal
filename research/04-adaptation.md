@@ -1,7 +1,7 @@
 # HYROX 上海站网络保障方案：北京版内容适配边界
 
 **调研主题：** 北京“冰丝带”版本改写为上海世博展览馆 3 号馆版本时，哪些内容可以保留、必须改写，或必须降级为待确认。
-**适用对象：** 以当前公开的 **ZhongAn HYROX Shanghai** 为准，即计划于 **2026 年 10 月 31 日至 11 月 1 日** 在上海世博展览馆 **3 号馆** 举办的赛事。官方页面明确标注赛程及场馆，但赛事日程仍标为“暂定、可能调整”。[1]
+**适用对象：** 以当前公开的 **HYROX Shanghai** 为准，即计划于 **2026 年 10 月 31 日至 11 月 1 日** 在上海世博展览馆 **3 号馆** 举办的赛事。官方页面明确标注赛程及场馆，但赛事日程仍标为“暂定、可能调整”。[1]
 
 ## 结论先行
 
@@ -93,7 +93,7 @@
 
 ## References
 
-[1]: https://hyrox.com/event/hyrox-shanghai-1031/ "ZhongAn HYROX Shanghai — official event page"
+[1]: https://hyrox.com/event/hyrox-shanghai-1031/ "HYROX Shanghai — official event page"
 [2]: https://china.hyrox.com/event/hyrox-beijing-season-26-27-7e3efj "Ulike HYROX Beijing | Season 26/27 — official ticket page"
 [3]: https://www.whrgoc.com/contact/5 "国家速滑馆（冰丝带）— 场馆介绍"
 [4]: https://www.globalomp.com/expo-hall/68 "Shanghai World Expo Exhibition and Convention Center — venue profile"

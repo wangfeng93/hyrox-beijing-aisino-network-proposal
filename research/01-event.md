@@ -1,4 +1,4 @@
-# 2026 众安保险 HYROX 上海站：官方赛事信息调研记录
+# 2026 HYROX 上海站：官方赛事信息调研记录
 
 **调研主题：** 仅限 2026 年 10 月 31 日至 11 月 1 日举行的上海 HYROX 赛事。
 **核验日期：** 2026 年 9 月 17 日。
@@ -6,7 +6,7 @@
 
 ## 核验结论
 
-本次应在方案中使用的赛事主名称为 **“众安保险 HYROX 上海站”**；对应英文官方写法为 **“ZhongAn HYROX Shanghai”**，HYROX China 票务活动的完整条目为 **“ZhongAn HYROX Shanghai | Season 26/27”**。HYROX 全球官网的赛事页与赛事目录均列出该英文名称；HYROX CHINA 官方 Instagram 在 2026 年 9 月 2 日的报名公告中使用“众安保险HYROX上海站”。[1] [2] [3] [4]
+本次应在方案中使用的赛事主名称为 **“HYROX 上海站”**；对应英文官方写法为 **“HYROX Shanghai”**，HYROX China 票务活动的完整条目为 **“HYROX Shanghai | Season 26/27”**。HYROX 全球官网的赛事页与赛事目录均列出该英文名称；HYROX CHINA 官方 Instagram 在 2026 年 9 月 2 日的报名公告中使用“HYROX 上海站”。[1] [2] [3] [4]
 
 赛事定于 **2026 年 10 月 31 日（周六）至 11 月 1 日（周日）**，地点为 **上海世博展览馆 3 号馆**。精确导航地址为 **上海市浦东新区国展路 1099 号，上海世博展览馆 3 号馆**。全球官网赛事页、HYROX China 官方票务页、官方中国社媒公告以及 HYROX 的地区官网镜像对此一致。[1] [2] [4] [5]
 
@@ -16,13 +16,13 @@
 
 | 要素 | 可用于方案的表述 | 交叉验证与说明 |
 |---|---|---|
-| 官方名称 | 中文：**众安保险 HYROX 上海站**；英文：**ZhongAn HYROX Shanghai**；票务活动名含赛季标识：**ZhongAn HYROX Shanghai \| Season 26/27**。 | 全球官网赛事目录与赛事详情页列“ZhongAn HYROX Shanghai”；HYROX China 票务活动使用完整赛季名；官方中国 Instagram 以中文名称发布报名已开启信息。[1] [2] [3] [4] |
+| 官方名称 | 中文：**HYROX 上海站**；英文：**HYROX Shanghai**；票务活动名含赛季标识：**HYROX Shanghai \| Season 26/27**。 | 全球官网赛事目录与赛事详情页列“HYROX Shanghai”；HYROX China 票务活动使用完整赛季名；官方中国 Instagram 以中文名称发布报名已开启信息。[1] [2] [3] [4] |
 | 日期 | **2026 年 10 月 31 日至 11 月 1 日。** | 全球官网、HYROX China 票务页、官方社媒和地区官网镜像一致。[1] [2] [3] [4] [5] |
 | 总体活动时段 | **2026 年 10 月 31 日 08:00 至 11 月 1 日 22:00（上海时间）。** | 这是用户截图的一手信息；票务页的 UTC 结构化起止时间换算后相同。[2] |
 | 举办地点 | **上海世博展览馆 3 号馆**；地址：**上海市浦东新区国展路 1099 号**。 | 官网英文写为 “Hall 3, Shanghai World Expo Exhibition and Convention Center”；官方页面同时给出中文导航地址，票务页列有邮编 200126；官方社媒亦列 3 号馆。[1] [2] [4] [5] |
 | 主办/运营主体 | HYROX China 官方票务页的 Schema.org 数据将 **HYROX China** 标为 `organizer`。全球官网法律声明显示 `hyrox.com` 所属主体为 **HYROX World GmbH**。 | 该信息可用于说明官方票务活动的标注主体；现有公开材料**未提供完整的中国站主办、承办、执行、场馆运营等单位名单**，不应擅自补全。[2] [8] |
-| 众安信息 | 活动名称已将 **ZhongAn / 众安保险**置于 HYROX Shanghai 之前，官方中国社媒也使用“众安保险HYROX上海站”。 | 方案可采用该官方冠名式名称。公开官方赛事页未披露“冠名赞助合同”的完整角色定义；上观新闻报道则称众安为 HYROX 中国区保险行业独家合作伙伴，并称其为 2026 年中国内地 10 场 HYROX 赛事提供定制保障。这是对合作性质的补充性媒体来源，不替代官方合同或主办方公告。[1] [2] [4] [9] |
-| 赛事定位 | 官方称本场为 2026 年 HYROX 回到上海的**当年第二场**赛事。 | 需同 5 月 16–17 日的 **24/7 FITNESS HYROX Shanghai \| Season 25/26** 严格区分；后者已在 HYROX China 历史活动页列为过往赛事。不得将 5 月站的冠名、日程或任何运营数据移植到本次众安保险上海站。[1] [7] |
+| 众安信息 | 活动名称已将 ** / **置于 HYROX Shanghai 之前，官方中国社媒也使用“HYROX 上海站”。 | 方案可采用该官方冠名式名称。公开官方赛事页未披露“冠名赞助合同”的完整角色定义；上观新闻报道则称众安为 HYROX 中国区保险行业独家合作伙伴，并称其为 2026 年中国内地 10 场 HYROX 赛事提供定制保障。这是对合作性质的补充性媒体来源，不替代官方合同或主办方公告。[1] [2] [4] [9] |
+| 赛事定位 | 官方称本场为 2026 年 HYROX 回到上海的**当年第二场**赛事。 | 需同 5 月 16–17 日的 **24/7 FITNESS HYROX Shanghai \| Season 25/26** 严格区分；后者已在 HYROX China 历史活动页列为过往赛事。不得将 5 月站的冠名、日程或任何运营数据移植到本次上海站。[1] [7] |
 
 ## 报名/售票窗口：证据与不一致处理
 
@@ -59,7 +59,7 @@ HYROX 官方将赛事定义为室内进行的体能竞速：参赛者重复 **8 
 
 ## 对网络保障方案的直接影响
 
-1. **以“众安保险 HYROX 上海站 / ZhongAn HYROX Shanghai”为唯一赛事标识。** 方案封面、网络命名、现场标识与系统台账应保持该名称，不应使用 5 月站的“24/7 FITNESS HYROX Shanghai”名称或其赛季标识。[2] [7]
+1. **以“HYROX 上海站 / HYROX Shanghai”为唯一赛事标识。** 方案封面、网络命名、现场标识与系统台账应保持该名称，不应使用 5 月站的“24/7 FITNESS HYROX Shanghai”名称或其赛季标识。[2] [7]
 
 2. **现场范围应精确落在上海世博展览馆 3 号馆。** 网络勘察、接入点位图、链路边界、布线与应急覆盖区域必须以“浦东新区国展路 1099 号，3 号馆”为依据；不能只写“上海世博展览馆”而遗漏具体馆号。[1] [2] [5]
 
@@ -75,15 +75,15 @@ HYROX 官方将赛事定义为室内进行的体能竞速：参赛者重复 **8 
 
 现有公开材料没有列出完整的主办、承办、执行、场馆运营及技术供应商名单，也没有发布终版起跑表、场地跑圈数、接力简报、现场登记时间、颁奖时间、参赛规模、注册台和终端数量、网络接口清单、直播平台或转播需求、工作人员规模。这些都属于网络保障的关键输入，但**不能由公开赛事页或历史上海站经验推定**。
 
-此外，全球官网上海赛事页内容正文写作 “HYROX is returning to Shanghai”，而其页面/赛事目录标题为 “ZhongAn HYROX Shanghai”。在方案中应以页面标题、票务活动名和官方中国社媒中文名称作为正式名称依据；不要将正文中未带冠名的叙述性简称误用作合同或现场标识的唯一名称。[1] [2] [3] [4]
+此外，全球官网上海赛事页内容正文写作 “HYROX is returning to Shanghai”，而其页面/赛事目录标题为 “HYROX Shanghai”。在方案中应以页面标题、票务活动名和官方中国社媒中文名称作为正式名称依据；不要将正文中未带冠名的叙述性简称误用作合同或现场标识的唯一名称。[1] [2] [3] [4]
 
 ## References
 
-[1]: https://hyrox.com/event/hyrox-shanghai-1031/ "ZhongAn HYROX Shanghai — HYROX official event page"
-[2]: https://china.hyrox.com/event/hyrox-shanghai-season-26-27-itfsos "Tickets for ZhongAn HYROX Shanghai | Season 26/27 — HYROX China"
+[1]: https://hyrox.com/event/hyrox-shanghai-1031/ "HYROX Shanghai — HYROX official event page"
+[2]: https://china.hyrox.com/event/hyrox-shanghai-season-26-27-itfsos "Tickets for HYROX Shanghai | Season 26/27 — HYROX China"
 [3]: https://hyrox.com/find-my-race/ "Find My Race — HYROX official race directory"
-[4]: https://www.instagram.com/p/Dcz58HwCI3F/ "众安保险 HYROX 上海站报名正式开启 — HYROX CHINA official Instagram post"
-[5]: https://hyroxtaiwan.com/zh-hant/%E4%BA%8B%E4%BB%B6/hyrox-shanghai-1031/ "ZhongAn HYROX Shanghai — HYROX Taiwan official regional event page"
+[4]: https://www.instagram.com/p/Dcz58HwCI3F/ "HYROX 上海站报名正式开启 — HYROX CHINA official Instagram post"
+[5]: https://hyroxtaiwan.com/zh-hant/%E4%BA%8B%E4%BB%B6/hyrox-shanghai-1031/ "HYROX Shanghai — HYROX Taiwan official regional event page"
 [6]: https://hyrox.com/the-fitness-race/ "About the Race — HYROX official race format"
 [7]: https://china.hyrox.com/?past=true "Past events — HYROX China"
 [8]: https://hyrox.com/legal-notice/ "Legal Notice — HYROX World GmbH"
